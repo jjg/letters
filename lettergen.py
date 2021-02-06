@@ -25,7 +25,7 @@ translate([0.5, 0.5, {handle}]){{
 """
 
         # Write letter file
-        with open(f"test_{letter_char}_{footprint}_mm.scad", "w") as f:
+        with open(f"{letter_char}_{footprint}_mm.scad", "w") as f:
             f.write(letter_openscad)
 
         # TODO: Use openscad command line to render and export STL
