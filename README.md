@@ -1,6 +1,9 @@
 # letters
 
+![photo of example letters](./example.jpg)
+
 Models of letters for printing, etc.
+
 
 ## Usage
 
